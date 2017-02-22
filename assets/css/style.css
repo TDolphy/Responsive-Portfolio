@@ -1,0 +1,78 @@
+body{
+	background-color: #dddddd;
+}
+
+h1 {
+	width: 225px;
+    padding: 15px;
+    margin-top: 25px;
+    margin-left: 80px;
+    background-color: #4aaaa5;
+}
+
+section {
+	background-color: #ffffff;
+	width: 650px;
+	padding: 25px;
+	margin-left: 80px;
+}
+
+ul {
+	list-style-type:none;
+	margin:auto;
+}
+
+li {
+	margin-top: 25px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#socialmediatitle{
+	font-family:calibri; /*this codes the titles*/
+	font-size:14px; 
+	text-transform:Capitalize;
+	letter-spacing:2px;
+	margin:5px;
+	text-align:center;}
+#socialmediabox{
+	width:250px; height:100px; /*this codes the whole box*/
+	border:3px double #848484; 
+	padding:2px; border-radius:10px;
+	position:absolute; 
+	margin-top:0px; 
+	right:30px;
+	z-index:9999999999999;
+	background:#fff;}
+#socialmediabox{
+	border-radius:0px;-webkit-transition: .8s ease-in-out; 
+	-moz-transition: .8s ease-in-out; 
+	-o-transition: .8s ease-in-out;}
+.socialmedia img{ 
+	width:38px; height:38px; padding:2px; /*this codes your social links*/
+	border:1px solid #848484; border-radius:2px;}
+.socialmedia img:hover{
+	background-color:#848484;
+	-webkit-transition: .3s ease-in-out; 
+	-moz-transition: .3s ease-in-out; }
+.socialmedia a{
+	text-decoration:none;}
+.socialmedia{
+	margin-top:10px; }/*this codes your social section*/
+
+
+/*media queries*/
+
+@media screen and (max-width: 980px){
+	#
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 640px){
+
+}
